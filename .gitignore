@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Dados sensíveis — NUNCA versionar
+dados/
+*.db
+credentials.enc
+
+# Arquivos gerados em execução
+saida/
+assets/
+*.xlsx
+!docs/exemplo_relatorio.xlsx
